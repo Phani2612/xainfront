@@ -130,7 +130,7 @@ function UserList() {
         </div>
       </div>
 
-      {showPopup && <Viewedit isOpen={showPopup} data = {Particular} onClose={CloseModal}/>}
+      {showPopup && <Viewedit isOpen={showPopup} data = {Particular} onClose={CloseModal} onUpdate = { FetchAllUsers}  />}
 
       <section className="user-list-section">
         <table className="user-table">
