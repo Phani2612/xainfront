@@ -35,7 +35,7 @@ function Body() {
                         </div>
 
                         <div id='body-login'>
-                         <Link style={{textDecoration:'none'}}> <span className='body-login-text' >Login</span></Link>
+                         <Link to='/login' style={{textDecoration:'none'}}> <span className='body-login-text' >Login</span></Link>
                         </div>
 
                    </div>
