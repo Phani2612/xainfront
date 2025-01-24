@@ -1,0 +1,261 @@
+.login-container{
+    width: 1262px;
+height: 502px;
+top: 197px;
+left: 89px;
+gap: 0px;
+
+/* border: 1px solid black; */
+margin: 50px auto;
+
+display: flex;
+flex-direction: row;
+
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.login-wallpaper{
+
+ 
+  width: 618px;
+height: 502px;
+top: 197px;
+left: 89px;
+gap: 0px;
+border-radius: 23.97px;
+
+box-sizing: border-box;
+
+
+
+}
+
+.login-form-container{
+
+    width: 680px;
+height: 502px;
+top: 197px;
+left: 671px;
+gap: 0px;
+
+/* border: 1px solid white; */
+background: #043B64;
+box-sizing: border-box;
+margin-left: -20px;
+}
+
+
+#login-form{
+
+    width: 568.45px;
+height: 293.8px;
+top: 227.29px;
+left: 728px;
+gap: 0px;
+border-radius: 6px 0px 0px 0px;
+border: 0.75px 0px 0px 0px;
+
+/* border: 0.75px solid #F3F3F3; */
+margin: 20px 40px;
+box-sizing: border-box;
+
+
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
+
+
+#forgot-password{
+
+    width: 139px;
+height: 23px;
+top: 528px;
+left: 1157px;
+gap: 0px;
+
+font-family: Nunito;
+font-size: 17.2px;
+font-weight: 400;
+line-height: 23.46px;
+align-self: flex-end;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #F3F3F3;
+}
+
+
+.login-button{
+    width: 129px;
+height: 34px;
+top: 560px;
+left: 728px;
+gap: 0px;
+border-radius: 1.79px 0px 0px 0px;
+
+border: 1px solid #000000;
+margin-left: 40px;
+background-color: #F3F3F3;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor: pointer;
+
+}
+
+#login-button-text{
+    width: 36px;
+height: 20px;
+top: 566.48px;
+left: 775px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 13.45px;
+font-weight: 500;
+line-height: 20.18px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
+
+
+#login-para{
+
+    width: 246px;
+height: 23px;
+top: 615px;
+left: 728px;
+gap: 0px;
+
+font-family: Nunito;
+font-size: 17.2px;
+font-weight: 400;
+line-height: 23.46px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #FFFFFF;
+margin-left: 40px;
+}
+
+#login-a-p{
+    font-family: Nunito;
+    font-size: 17.2px;
+    font-weight: 700;
+    line-height: 23.46px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+ color:  #FFFFFF;
+  
+}
+
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+
+
+
+/* Media queries */
+
+
+/* For devices with max width of 1200px (Tablets and small laptops) */
+@media (max-width: 1200px) {
+
+  
+   
+   
+
+  
+    #login-form {
+      width: 90%; /* Reduce width */
+      margin: 20px auto; /* Center the form */
+    }
+  
+    .login-button {
+      margin: 10px auto; /* Center the button */
+      
+    }
+  
+    #login-para {
+      margin: 10px auto; /* Adjust margin */
+    }
+  }
+  
+  /* For devices with max width of 768px (Tablets and large phones) */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 20px; /* Add some padding */
+    }
+  
+    #login-form {
+      width: 95%; /* Adjust form width */
+    }
+  
+    #forgot-password {
+      font-size: 15px; /* Adjust font size */
+      text-align: center; /* Center the text */
+      margin-top: 10px; /* Add spacing */
+    }
+  
+    .login-button {
+      font-size: 14px; /* Adjust font size */
+    }
+  
+    #login-para {
+      font-size: 16px; /* Adjust font size */
+    }
+  }
+  
+  /* For devices with max width of 480px (Phones) */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 10px; /* Reduce padding */
+      
+    }
+  
+    .login-wallpaper {
+      display: none; /* Hide wallpaper on small screens */
+    }
+  
+   
+  
+    #login-form {
+      width: 100%; /* Make form take full width */
+      padding: 10px; /* Add padding for smaller devices */
+    }
+  
+    #forgot-password {
+      font-size: 13px; /* Adjust font size */
+      margin-top: 5px; /* Reduce margin */
+    }
+  
+    .login-button {
+     
+      font-size: 12px; /* Adjust font size */
+    }
+  
+    #login-para {
+      font-size: 14px; /* Adjust font size */
+      margin-top: 5px; /* Adjust spacing */
+    }
+
+  
+  }
+  

@@ -1,0 +1,232 @@
+.navbar-con{
+
+    width: 100%;
+    min-width: 1440px;
+height: 101px;
+gap: 0px;
+
+border: 1px solid black;
+background-color: #043B64;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+box-sizing: border-box;
+}
+
+.screenshot{
+    width: 165px;
+height: 69px;
+top: 13px;
+left: 43px;
+gap: 0px;
+
+
+}
+
+
+
+.button-con{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center; /* Vertically align the items */
+
+}
+
+#group1{
+    width: 115.4px;
+    height: 33px;
+    top: 28px;
+    left: 1132px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+   
+    background: #FFFFFF;
+    box-sizing: border-box;
+    display: flex; /* Use flex to center the content inside */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.login-text{
+    width: 41px;
+height: 23px;
+top: 33px;
+left: 1169px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 22.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #043B64;
+
+
+}
+
+#group2{
+
+    width: 121.92px;
+height: 33px;
+top: 28px;
+left: 1265.08px;
+gap: 0px;
+border-radius: 2px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+
+border: 1px solid #FFFFFF;
+display: flex; /* Use flex to center the content inside */
+justify-content: center; /* Horizontally center the text */
+align-items: center; /* Vertically center the text */
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+
+#group1:hover{
+
+    background-color:  #043B64;
+    border: 1px solid #FFFFFF;
+}
+
+#group2:hover{
+
+    background-color: #FFFFFF;
+    
+}
+
+.Signup-text{
+    width: 58px;
+    height: 23px;
+    top: 33px;
+    left: 1295px;
+    gap: 0px;
+  
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+
+.Signup-text:hover{
+
+    color: #043B64;
+}
+
+
+.login-text:hover{
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+/* Responsive Design */
+
+/* For tablets (screen width between 768px and 1024px) */
+@media (max-width: 1024px) {
+    .navbar-con {
+        min-width: auto;
+        padding: 20px;
+    }
+
+    .screenshot {
+        width: 120px;
+        height: 50px;
+    }
+
+    #group1, #group2 {
+        width: 100px;
+        height: 30px;
+    }
+
+    .button-con {
+        gap: 15px;
+    }
+
+    .login-text, .Signup-text {
+        font-size: 14px;
+    }
+}
+
+/* For mobile devices (screen width below 768px) */
+@media (max-width: 768px) {
+    .navbar-con {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .screenshot {
+        width: 100px;
+        height: 40px;
+    }
+
+    .button-con {
+        flex-direction: column;
+        gap: 10px;
+
+        margin-top: 20px;
+    }
+
+    #group1, #group2 {
+        width: 90px;
+        height: 25px;
+    }
+
+    .login-text, .Signup-text {
+        font-size: 12px;
+    }
+}
+
+/* For small mobile devices (screen width below 480px) */
+@media (max-width: 480px) {
+    .navbar-con {
+        padding: 10px;
+    }
+
+    .screenshot {
+        width: 80px;
+        height: 35px;
+    }
+
+    #group1, #group2 {
+        width: 80px;
+        height: 20px;
+    }
+
+    .login-text, .Signup-text {
+        font-size: 13px;
+    }
+
+    .button-con {
+        gap: 5px;
+    }
+}

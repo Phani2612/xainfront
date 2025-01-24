@@ -1,0 +1,13 @@
+.Big-container {
+    width: 100%;
+    min-width: 1440px;
+    min-height: 100vh; /* Ensure the container spans the full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack header, main content, and footer vertically */
+}
+
+main {
+    flex: 1; /* Make the main content take up the remaining space */
+    /* padding: 2rem; */
+   
+}

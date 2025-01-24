@@ -1,0 +1,616 @@
+.signup-container {
+    width: 1262px;
+    height: 1084px;
+    
+    /* border: 2px solid black; */
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+   
+   
+    
+}
+
+.signup-wallpaper{
+    width: 618px;
+height: 1084px;
+top: 197px;
+left: 89px;
+gap: 0px;
+border-radius: 23.97px 0px 0px 0px;
+
+
+box-sizing: border-box;
+
+}
+
+
+.signup-form-container{
+width: 680px;
+
+height: 1084px;
+top: 197px;
+left: 671px;
+gap: 0px;
+
+border: 0.75px solid #F3F3F3;
+
+background-color: #043B64;
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+
+}
+
+.signup-form{
+    width: 569.45px;
+    height: 805.71px;
+    top: 247.29px;
+    left: 727px;
+    gap: 0px;
+    border-radius: 6px ;
+    border: 0.75px 0px 0px 0px;
+   
+    /* border: 0.75px solid #F3F3F3; */
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+   
+
+  
+}
+
+#signup-text{
+    width: 189.58px;
+height: 52px;
+top: 247.29px;
+left: 916.54px;
+gap: 0px;
+
+font-family: Nunito;
+font-size: 38px;
+font-weight: 700;
+line-height: 51.83px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+
+#signup-p{
+    width: 450.63px;
+height: 16px;
+top: 304px;
+left: 785.36px;
+gap: 0px;
+
+font-family: Nunito;
+font-size: 11.99px;
+font-weight: 400;
+line-height: 16.36px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+
+#signup-input-group-name,#signup-input-group-contact,#signup-input-group-whatsapp,#signup-input-group-email,#signup-input-group-state,#signup-input-group-referral,#signup-input-group-password,#signup-input-group-confirm{
+
+  
+   width: 568.45px;
+height: 66.97px;
+/* top: 391.97px;
+left: 727px; */
+
+border-radius: 6px 0px 0px 0px;
+border: 0.75px 0px 0px 0px;
+
+/* border: 0.75px solid #F3F3F3; */
+margin-top: 10px;
+
+}
+
+#signup-input-group-name{
+
+    display: flex;
+    flex-direction: row;
+
+  
+
+    box-sizing: border-box;
+}
+
+
+
+#first-name, #last-name {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    flex: 1; /* Ensure both inputs take equal width */
+    margin-right: 10px; /* Optional, adds space between inputs */
+}
+
+#first-name-input, #last-name-input {
+    width: 273.29px;
+    height: 39.73px;
+    padding: 11.99px 14.99px; /* Padding for top-right-bottom-left */
+    border-radius: 6px;
+    border: 0.75px solid #F3F3F3; /* Border thickness */
+    box-sizing: border-box; /* Ensure padding and border are included in width and height */
+}
+
+#first-name-text, #last-name-text {
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 11.24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 5px; /* Space between the label and the input */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.input-with-icon {
+    position: relative; /* Create a context for absolutely positioned elements */
+    display: flex;
+    align-items: center;
+   
+}
+
+.input-with-icon input {
+    width: 100%;
+    height: 39.73px; /* Match your input height */
+    padding: 11.99px 14.99px; /* Add padding for content */
+    padding-right: 50px; /* Add space for the icon on the right */
+    border: 0.75px solid black; /* Match your styling */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box;
+}
+
+.user-profile-icon {
+    width: 20.52px;
+    height: 20.52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 14px; /* Position the icon inside the input field (right-aligned) */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Correct vertical alignment */
+}
+
+#profile-oval {
+    width: 11.66px;
+    height: 7.37px;
+    border: 0px solid #04009A;
+}
+
+#profile-circle {
+    width: 7.59px;
+    height: 7.59px;
+    border: 0px solid #04009A;
+    
+    margin-top: 3px; /* Adjust spacing between the two icons */
+}
+
+#contact-input{
+
+    width: 568.45px;
+    height: 39.73px;
+    padding: 11.99px 14.99px; /* Padding for top-right-bottom-left */
+    border-radius: 6px;
+    border: 0.75px solid #F3F3F3; /* Border thickness */
+    box-sizing: border-box; /* Ensure padding and border are included in width and height */
+ 
+}
+
+#contact-logo{
+    width: 19px;
+height: 19px;
+top: 3px;
+left: 2px;
+gap: 0px;
+
+color: #043B64;
+position: absolute;
+
+margin-left: 525px;
+margin-top: 10px;
+}
+
+
+/* Container for the icons */
+.password-icon-container {
+    position: relative; /* Parent container for positioning children */
+    width: 16.74px; /* Match oval width */
+    height: 14.15px; /* Match oval height */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-left: -20px;
+}
+
+/* Oval SVG */
+#password-oval {
+    width: 100%; /* Fill container width */
+    height: 100%; /* Fill container height */
+    position: absolute; /* Position relative to the container */
+    z-index: 1; /* Place oval below the circle */
+    opacity: 1; /* Ensure it's visible */
+}
+
+/* Circle SVG */
+#password-circle {
+    width: 6.12px; /* Set the desired size */
+    height: 6.12px;
+    position: absolute; /* Position relative to the container */
+    z-index: 2; /* Place circle above the oval */
+    opacity: 1; /* Ensure it's visible */
+}
+
+
+
+
+/* Container for the checkbox and label */
+.checkbox-container {
+    display: flex;
+    align-items: center; /* Align the checkbox and text vertically */
+    gap: 10px; /* Space between checkbox and text */
+    margin-top: 20px; /* Adjust top margin if needed */
+    
+}
+
+/* Styling for the checkbox */
+#terms-checkbox {
+    width: 17px;
+    height: 15px;
+    border-radius: 3px; /* Rounded corners for the checkbox */
+    border: 1px solid #000; /* Border styling */
+    opacity: 1; /* Ensure visibility */
+    appearance: none; /* Remove default styling */
+    cursor: pointer; /* Add pointer cursor on hover */
+    background-color: #fff; /* Background color */
+    display: inline-block;
+    color:  #fff;
+}
+
+/* Checkbox checked state */
+#terms-checkbox:checked {
+    background-color: #04009A; /* Color when checked */
+    border: 1px solid #04009A; /* Border color when checked */
+}
+
+/* Label styling */
+.checkbox-label {
+    width: 408px;
+    height: 12px;
+    top: 1111px;
+    left: 759px;
+    gap: 0px;
+   
+
+    font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+line-height: 11.24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+#checkbox-span{
+    font-family: Nunito;
+font-size: 16px;
+font-weight: 800;
+line-height: 11.24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+
+.signup-buttons-con{
+
+    width: 568px;
+height: 39.93px;
+top: 1172.83px;
+left: 728px;
+gap: 0px;
+border-radius: 2.42px;
+
+/* border: 1px solid #FFFFFF; */
+margin-left: 20px;
+
+display: flex;
+flex-direction: row;
+
+justify-content: space-between;
+margin-top: 30px;
+
+}
+
+
+
+#signup-register-button{
+    width: 257.05px;
+height: 39.93px;
+top: 1172.83px;
+left: 728px;
+gap: 0px;
+border-radius: 2.42px 0px 0px 0px;
+
+border: 1.35px solid #FFFFFF;
+background-color: black;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor: pointer;
+}
+
+
+#signup-register-text{
+
+    width: 94.67px;
+height: 27px;
+top: 1178.88px;
+left: 808.78px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 18.15px;
+font-weight: 500;
+line-height: 27.23px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:  #FFFFFF;
+}
+
+
+#signup-login-button{
+
+    width: 271.56px;
+height: 39.93px;
+top: 1172.83px;
+left: 1024.44px;
+gap: 0px;
+border-radius: 2.42px 0px 0px 0px;
+border: 1.21px 0px 0px 0px;
+
+border: 1.21px solid #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor: pointer;
+}
+
+
+#signup-login-text{
+
+    width: 61.85px;
+height: 27px;
+top: 1178.88px;
+left: 1128.81px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 18.15px;
+font-weight: 500;
+line-height: 27.23px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Devices (<576px) */
+@media (max-width: 575.98px) {
+   
+  
+    .signup-wallpaper {
+      display: none;
+    }
+  
+    .signup-container{
+
+        justify-content: center;
+    }
+  
+ 
+    #signup-input-group-name,
+    #signup-input-group-contact,
+    #signup-input-group-whatsapp,
+    #signup-input-group-email,
+    #signup-input-group-state,
+    #signup-input-group-referral,
+    #signup-input-group-password,
+    #signup-input-group-confirm {
+      width: 100%;
+    }
+  
+    #first-name,
+    #last-name {
+      width: 100%; /* Stack inputs vertically */
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .signup-buttons-con {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    #signup-register-button,
+    #signup-login-button {
+      width: 100%;
+    }
+  }
+  
+  /* Tablets (576px - 768px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    
+  
+    
+  
+    .signup-form-container {
+      width: 100%;
+    }
+  
+    .signup-form {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    #signup-input-group-name,
+    #signup-input-group-contact,
+    #signup-input-group-whatsapp,
+    #signup-input-group-email,
+    #signup-input-group-state,
+    #signup-input-group-referral,
+    #signup-input-group-password,
+    #signup-input-group-confirm {
+      width: 100%;
+    }
+  
+    #first-name,
+    #last-name {
+      width: 48%; /* Two inputs per row */
+      margin-bottom: 10px;
+    }
+  
+    .signup-buttons-con {
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    #signup-register-button,
+    #signup-login-button {
+      width: 48%;
+    }
+  }
+  
+  /* Small Desktops (768px - 992px) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .signup-container {
+      flex-direction: row;
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .signup-wallpaper {
+      width: 50%;
+      height: auto;
+      border-radius: 20px 0 0 20px;
+    }
+  
+    .signup-form-container {
+      width: 50%;
+      padding: 20px;
+
+      margin-left: -30px;
+    }
+  
+    .signup-form {
+      width: 85%;
+      margin: 0 auto;
+    }
+  
+    #signup-input-group-name,
+    #signup-input-group-contact,
+    #signup-input-group-whatsapp,
+    #signup-input-group-email,
+    #signup-input-group-state,
+    #signup-input-group-referral,
+    #signup-input-group-password,
+    #signup-input-group-confirm {
+      width: 100%;
+    }
+  
+    #first-name,
+    #last-name {
+      width: 48%;
+      margin-bottom: 10px;
+    }
+  
+    .signup-buttons-con {
+      gap: 15px;
+    }
+  
+    #signup-register-button,
+    #signup-login-button {
+      width: auto;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Medium Desktops (992px - 1200px) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .signup-container {
+      flex-direction: row;
+      width: 85%;
+      margin: 0 auto;
+    }
+  
+    .signup-wallpaper {
+      width: 50%;
+      height: auto;
+      border-radius: 25px 0 0 25px;
+    }
+  
+    .signup-form-container {
+      width: 50%;
+      padding: 30px;
+    }
+  
+    .signup-form {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

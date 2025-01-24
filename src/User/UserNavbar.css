@@ -1,0 +1,77 @@
+.nav-container{
+
+    width: 100%;
+    min-width: 1440px;
+    
+height: 101px;
+gap: 0px;
+
+border: 1px solid black;
+background-color: #043B64;
+
+display: flex;
+flex-direction: row;
+
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+
+box-sizing: border-box;
+
+}
+
+
+.pasil-logo{
+    width: 165px;
+height: 69px;
+top: 16px;
+left: 29px;
+gap: 0px;
+
+
+}
+
+
+.usernav-button-con{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    gap: 20px;
+}
+
+
+
+
+
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column; /* Switch to column layout */
+        height: auto; /* Allow height to adjust dynamically */
+        align-items: center; /* Align items to the left */
+        padding: 15px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .pasil-logo {
+        margin-bottom: 15px; /* Add space below the logo */
+
+        justify-content: center;
+    }
+
+    .usernav-button-con {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Adjust gap for vertical layout */
+        width: 100%; /* Full width for the buttons */
+    }
+
+    .usernav-button-con button {
+        width: 100%; /* Buttons take full width */
+        text-align: center;
+    }
+}

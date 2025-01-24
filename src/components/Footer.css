@@ -1,0 +1,291 @@
+.footer-con{
+    width: 100%;
+    min-width: 1440px;
+top: 658px;
+gap: 0px;
+
+border: 1px solid black;
+background: #043B64;
+
+display: flex;
+
+
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: center;
+
+height: 100%;
+
+
+}
+
+
+
+.footer-company-logo{
+    width: 279px;
+height: 117px;
+top: 16px;
+left: 89px;
+gap: 0px;
+
+
+}
+
+.footer-p{
+
+    width: 435px;
+height: 81px;
+top: 136px;
+left: 95px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+.footer-boxes{
+
+    display:inline-flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+    
+    width: 1140px;
+    /* border: 1px solid black; */
+}
+
+.footer-box-1{
+
+   margin-left: -100px;
+}
+
+
+.footer-box-2 {
+    width: 100%; /* Set width to 100% for responsiveness */
+    max-width: 460px; /* Maintain a maximum width */
+    height: auto; /* Allow height to adjust based on content */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Proper spacing between sections */
+    padding: 10px 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in the element's dimensions */
+    gap: 20px; /* Add spacing between child elements */
+
+    margin-right: 150px;
+    
+}
+
+#footer-box-2-text-con-1,
+#footer-box-2-text-con-2 {
+    
+    text-align: left;
+}
+
+
+
+#footer-box-2-text-con-1-text-1 {
+ 
+    width: 181px;
+height: 33px;
+top: 52px;
+left: 683px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+
+#footer-box-2-text-con-1-text-2{
+
+    width: 90px;
+height: 24px;
+top: 99px;
+left: 683px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+
+}
+
+
+#footer-box-2-text-con-1-text-3{
+
+    width: 111px;
+height: 24px;
+top: 137px;
+left: 683px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+
+
+#footer-box-2-text-con-2-text-1{
+    width: 159px;
+    height: 24px;
+    top: 55px;
+    left: 952px;
+    gap: 0px;
+   
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+#footer-box-2-text-con-2-text-2{
+    width: 135px;
+height: 24px;
+top: 93px;
+left: 952px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+#footer-social-icon {
+    display: flex;
+    gap: 10px; /* Add space between icons */
+    justify-content: flex-start; /* Align icons to the left */
+    margin-top: 20px; /* Space above icons */
+}
+
+#footer-social-icon div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF; /* Icon border */
+
+    overflow: hidden; /* Prevent content overflow */
+}
+
+#footer-social-icon img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    object-fit: contain; /* Ensure icons fit within the div */
+}
+
+
+.thin-line{
+    width: 1330px;
+height: 0px;
+top: 270px;
+left: 1325px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+
+rotate : 180deg;
+border: 2px solid #FFFFFF;
+margin-top: 10px;
+}
+
+
+.footer-copyright{
+    width: 336px;
+height: 27px;
+top: 288px;
+left: 542px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+
+
+
+
+
+
+/* Media queries */
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .footer-boxes {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; /* Increased gap for clarity on small screens */
+    }
+
+    .footer-box-1, .footer-box-2 {
+        flex: 1 1 100%;
+        text-align: center; /* Center-align text */
+    }
+
+    .footer-p {
+        font-size: 14px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,218 @@
+.sidebar {
+    
+
+    color: white;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+
+    
+  }
+  
+  .sidebar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .sidebar-nav{
+
+      margin-left: -85px;
+
+      margin-top: 80px;
+  }
+
+
+  .sidebar ul {
+    list-style: none;
+    
+    /* border: 1px solid black; */
+    
+    width: 100%;
+    max-width: 320.05px;
+    height: 280px;
+   
+    border: 1px 0px 0px 0px;
+   
+    
+
+  }
+  
+  .sidebar ul li {
+    width: 360.05px;
+height: 57px;
+top: 207px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+
+border: 1px solid #FFFFFF;
+
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+   
+  }
+  
+  .sidebar ul li a:hover {
+    width: 360px;
+    background-color: #FFFFFF;
+    color: #0e4971;
+  }
+  
+  .active-link {
+    background-color: #ffd700;
+    color: #0e4971;
+    font-weight: bold;
+  }
+  
+
+  .virtox-logo{
+
+    width: 165px;
+height: 69px;
+top: 19px;
+left: 31px;
+gap: 0px;
+
+
+  }
+
+
+#nav-link-text-1, #nav-link-text-2,#nav-link-text-3,#nav-link-text-4{
+  width: 105px;
+height: 35px;
+top: 216px;
+left: 34px;
+gap: 0px;
+
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens 1024px or smaller */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 220px; /* Slightly reduce width on medium screens */
+  }
+
+  .sidebar ul {
+    width: 100%;
+  }
+
+  .sidebar ul li a {
+    font-size: 0.9rem; /* Adjust text size */
+    padding: 10px; /* Reduce padding */
+  }
+}
+
+/* For screens 768px or smaller */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60%;
+
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+
+    
+  }
+
+  .sidebar .logo {
+    font-size: 1.25rem; /* Adjust logo size */
+  }
+
+  .sidebar ul li {
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+  }
+
+  .sidebar ul li a {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Convert the sidebar to a navbar */
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+ 
+}
+
+/* For screens 480px or smaller */
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .sidebar .logo {
+    font-size: 1rem; /* Further reduce logo size */
+  }
+
+  .sidebar ul {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .sidebar ul li {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .sidebar ul li a {
+    font-size: 0.9rem; /* Reduce text size for mobile */
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Convert the sidebar into a mobile-friendly navbar */
+  .sidebar-nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .virtox-logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
