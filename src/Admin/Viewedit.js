@@ -4,7 +4,7 @@ import axios from 'axios';
 import { SERVER_URL } from '../URL';
 import Swal from 'sweetalert2'
 
-function Viewedit({ isOpen, onClose ,data}) {
+function Viewedit({ isOpen, onClose ,data , onUpdate}) {
 
   
   
@@ -32,7 +32,8 @@ function Viewedit({ isOpen, onClose ,data}) {
                       text : message,
                       icon : 'success'  
                 })
-                
+
+           onUpdate()
 
          }
 
